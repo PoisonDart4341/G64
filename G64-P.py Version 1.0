@@ -2,20 +2,8 @@ def print_help():
     print("Available")
     print("help - Find usable commands")
     print("version - Find software version")
-    print("about - About G64-P")
-def print_version():
-    print("G64-P Version 1.0")
-    
-def print_about():
-    print("G(avin Pardee - Creator)(Based off of Commodore)64-P(ython Edition)")
 
 def process_command(command):
-    if command == "credits":
-        print_credits()
-    elif command == "about":
-        print_about()
-    elif command == "version":
-        print_version()
     elif command == "help":
         print_help()
     else:
@@ -28,6 +16,6 @@ def main():
         process_command(command)
         
 if __name__ == "__main__":
-    print("******* G64-P *******")
+    print("******* Python64 *******")
     print("Please type a command")
     main()
