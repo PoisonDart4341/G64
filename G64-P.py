@@ -19,7 +19,7 @@ def print_credits():
 def process_command(command):
     if command == "credits":
         print_credits()
-    if command == "about":
+    elif command == "about":
         print_about()
     elif command == "version":
         print_version()
